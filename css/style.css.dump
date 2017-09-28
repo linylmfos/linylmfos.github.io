@@ -52,6 +52,10 @@ span,p {
 	font-size: 18px;
 }
 
+.project div.project-name> a{
+	color: #31b0d5 !important;
+}
+
 /*打印样式开始*/
 @media print {
 	body{

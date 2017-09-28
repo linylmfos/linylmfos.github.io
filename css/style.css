@@ -41,7 +41,7 @@ ul li{
 }
 a{
 	text-decoration: none !important;
-	color: #000 !important;
+	color: #000;
 }
 a:hover{
 	text-decoration: none !important;
@@ -52,7 +52,7 @@ span,p {
 	font-size: 18px;
 }
 
-/*´òÓ¡ÑùÊ½¿ªÊ¼*/
+/*æ‰“å°æ ·å¼å¼€å§‹*/
 @media print {
 	body{
 		margin: 0px !important;
@@ -74,12 +74,19 @@ span,p {
 		font-size: 22px !important;
 	}
 }
+
+@media print {
+	a{
+		color:#5B9BD5 !important;
+	}
+}
+
 @media print {
 	a[href]:after {
 		content: none !important;
 	}
 }
-/*´òÓ¡ÑùÊ½½áÊø*/
+/*æ‰“å°æ ·å¼ç»“æŸ*/
 
 .itemName{
 	margin-top: 10px !important;
