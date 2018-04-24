@@ -1,179 +1,331 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>我的简历</title>
-        <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-        <script>
-        //window.location.href="http://www.holylinden.site";
-        </script>
-    </head>
-    <body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="renderer" content="webkit">
+    <meta name="force-rendering" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>我的简历</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <script type="text/javascript" src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
+    <script type="text/javascript">
+        $youziku.load("body", "700bcf8dd896483091b1f3fc331d0372", "Source-Han-Light");
+        /*$youziku.load("#id1,.class1,h1", "700bcf8dd896483091b1f3fc331d0372", "Source-Han-Light");*/
+        /*．．．*/
+        $youziku.draw();
+    </script>
+</head>
+
+<body>
+    <div class="resume">
         <div class="container row">
             <!-- 基本信息栏 -->
-            <div class="content col-md-11">
+            <div class="content resume-header col-md-12">
                 <!-- 基础信息栏开头 -->
-                <div class="basicInfo row">
+                <div class="basic-info">
                     <!-- 前两行代码关于基本信息 -->
                     <div class="info col-md-10">
-                        <div class="will row">
+                        <div class="will">
                             <div class="col-md-3">
-                                <span class="name"><strong>李 峰</strong></span>
+                                <div class="name" style="font-size:32px !important;font-weight: bold;">李 &nbsp;&nbsp;峰</div>
                             </div>
                             <div class="col-md-4">
-                                <span class="position"><b>求职意向：Web前端</b></span>
+                                <span class="position">
+                                    <b>求职意向：Web前端工程师</b>
+                                </span>
                             </div>
                             <div class="col-md-3">
-                                <span class="position">在线简历：<a href="http://www.linden.site"> linden.site </a></span>
+                                <span class="position">在线简历：
+                                    <a href="http://www.linden.site"> linden.site </a>
+                                </span>
                             </div>
                         </div>
                         <!-- 第二行基本信息 -->
-                        <div class="detailInfo row">
-                            <div class="phoneID col-md-5">
-                                <span class="phoneID">手机号码： 18476354782</span>
+                        <div class="detailInfo">
+                            <div class="phoneID col-md-4">
+                                <span class="phoneID">
+                                    <i class="iconfont icon-phone03"></i>： 184-7635-4782</span>
                             </div>
-                            <div class="age col-md-2">
-                                <span class="age">年龄: 30</span>
+                            <div class="mailbox col-md-3">
+                                <span class="mailbox">
+                                    <i class="iconfont icon-youxiang"></i>：
+                                    <a class="mail" href="mailto:iqianbaidu@163.com">iqianbaidu@163.com</a>
+                                </span>
                             </div>
-                            <div class="mailbox col-md-5">
-                                <span class="mailbox">邮箱： <a class="mail" href="mailto:18476354782@sina.cn">18476354782@sina.cn</a>
-                            </span>
+                        </div>
+                        <!--//第二行基础信息 -->
+                    </div>
+                    <div class="profile col-md-2">
+                        <div class="photo">
+                            <img src="img/Amos.jpg" alt="Amos的头像">
                         </div>
                     </div>
-                    <!--//第二行基础信息 -->
                 </div>
-                <div class="profile col-md-2">
-                    <div class="photo">
-                        <img src="img/Amos.jpg" alt="Amos的头像">
+                <!-- //基础信息栏 -->
+                <div class="resume-main">
+                    <!-- 教育背景 -->
+                    <div class="edu  item-name">
+                        <div class="edu_head col-md-12">
+                            <span class="edu">
+                                <i class="fa fa-mortar-board"></i> 教育背景</span>
+                            <hr>
+                        </div>
+                        <div class="edu-content">
+                            <div class="eduInfo col-md-12">
+                                <div class="eduDate col-md-4">2011.09 - 2014.04</div>
+                                <div class="university col-lg-4 col-md-4">西安理工大学</div>
+                                <div class="major col-lg-4 col-md-4">集成电路工程(硕士)</div>
+                            </div>
+                            <div class="eduInfo col-md-row">
+                                <div class="eduDate col-md-4">2007.09 - 2011.07</div>
+                                <div class="university col-lg-4 col-md-4">西安理工大学</div>
+                                <div class="major col-lg-4 col-md-4">微电子学(学士)</div>
+                            </div>
+                        </div>
                     </div>
+
+                    <!-- 职业技能 -->
+                    <div class="skill item-name">
+                        <div class="skill-head col-md-12">
+                            <span>
+                                <i class="fa fa-gear"></i> 职业技能</span>
+                            <hr/>
+                        </div>
+                        <div class="skill-items">
+                            <ul class="skill">
+                                <li>
+                                    <span class="fa fa-arrow-circle-right"></span> 熟练掌握常用的布局方式，熟练运用HTML(5)、CSS(3)等进行网页重构，可实现自适应或响应式布局，对web语义化有一定的了解, 跨浏览器的处理经验。</li>
+                                <li>
+                                    <span class="fa fa-arrow-circle-right"></span> 熟练掌握css3、js，echarts等技术，完成动态效果或图表的展示。</li>
+                                <li>
+                                    <span class="fa fa-arrow-circle-right"></span> 掌握webpack并使用webpack进行vue项目的开发、能够使用Git等前端项目进行协同开发，熟悉前端调试工具Firebug和用Chrome进行调试。</li>
+                                <li>
+                                    <span class="fa fa-arrow-circle-right"></span> 熟悉Vue.js2.x, vue-router, vuex, Axios全家桶技术栈, ES6、webpack等技术。</li>
+                                <li>
+                                    <span class="fa fa-arrow-circle-right"></span> 熟练使用Axios异步或同步发送http请求获取json数据。掌握使用mock数据的方法。</li>
+                                <li>
+                                    <span class="fa fa-arrow-circle-right"></span> 掌握网页性能优化的方法和工具，能够对网页性能进行优化。
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- //职业技能 -->
+
+                    <!-- 项目经验 -->
+                    <div class="project item-name">
+                        <div class="project-head col-md-12">
+                            <span>
+                                <i class="fa fa-codepen"></i> 项目经验</span>
+                            <hr>
+                        </div>
+                        <div class="project-items clearfix">
+                            <div class="projectID col-md-4">项目名称</div>
+                            <div class="project-name col-md-8">
+                                <a href="http://linden.site">vue项目－仿去哪儿网</a>
+                            </div>
+                            <div class="project-desc col-md-2">项目简介：</div>
+                            <div class="project-desc-content col-md-10">该项目是采用webpack + vue2.x + vue-router + vuex + Axios等技术实现了移动端的旅游网站。</div>
+                            <div class="project-key col-md-12">技术要点：</div>
+                            <div class="project-tech col-md-12">
+                                <ul>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span> 1.环境搭建：通过webpack与vue-cli搭建项目脚手架。布局方面：采用相对单位rem，通过组件实现页面的布局。
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span>3.通过vue-awesome-swiper实现了首页头部的轮播。采用Better-scroll插件实现页面滚动的效果。
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span>4.在本地建立mock数据，在页面通过axios请求mock的数据。通过vuex实现了首页中的组件与城市列表组件的数据传递。
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span>5.采用vue自带的transition组件实现了城市列表页的banner图在滑屏滚动时候的渐隐渐现的效果。
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span>6.网页性能：采用keep-alive当路由切换后缓存组件，采用异步组件减少了首页的ajax请求数。
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="project-items">
+                            <div class="projectID col-md-4">项目名称</div>
+                            <div class="project-name col-md-8">
+                                <a href="http://holylinden.site/emall/">vue项目－点餐系统</a>
+                            </div>
+                            <div class="project-desc col-md-2">项目简介：</div>
+                            <div class="project-desc-content col-md-10"> 该项目采用vue2.x +vue-router+ fetch实现了快餐点餐系统。</div>
+                            <div class="project-key  col-md-12">技术要点：</div>
+                            <div class="project-tech">
+                                <ul>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span> 1.通过vue-cli搭建vue项目的脚手架，通过webpack搭建本地服务器环境，配置开发与生产环境。页面采用flex布局。
+                                    </li>
+                                   
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span> 2.通过vue-router实现了商品页、评价页、商家页的评价。通过keep-alive对路由组件进行了缓存，减少了其页面的请求数。
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span> 3.采用better-scroll插件实现了商品页面的滚动效果。
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span> 4.在easyMock上添加data并制作数据接口, 然后用Axios进行数据请求。
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="project-items">
+                            <div class="projectID col-md-4">项目名称</div>
+                            <div class="project-name col-md-8">
+                                <a href="http://holylinden.site/finance">vue项目－快餐店收银系统</a>
+                            </div>
+                            <div class="project-desc col-md-2">项目简介：</div>
+                            <div class="project-desc-content col-md-10"> 该项目是Vue+Webpack+Element+Axios+vueRouter.系统是一个快餐店的POS系统。</div>
+                            <div class="project-key  col-md-12">技术要点：</div>
+                            <div class="project-tech">
+                                <ul>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span> 1.采用webpack、vue-cli搭建项目脚手架，通过webpack配置项目的开发环境。
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span> 2.布局：采用ElementUI中的栅格布局进行布局。采用element自带的组件elbutton, el-tabs等组件进行布局。
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span> 3.图标采用iconfont自体图标，减少了http请求数。
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span> 4.在easyMock上添加data并制作数据接口, 然后用Axios进行数据请求。</span>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="project-items">
+                            <div class="projectID col-md-4">项目名称</div>
+                            <div class="project-name col-md-8">
+                                <a href="http://linden.site/sic/">电话服务系统</a>
+                            </div>
+                            <div class="project-desc col-md-2">项目简介：</div>
+                            <div class="project-desc-content col-md-10">该项目采用echarts展示客户使用电话服务的呼入呼出，接通率，满意度，通话录音，通话数据的一个管理系统。</div>
+                            <div class="project-key  col-md-12">技术要点：</div>
+                            <div class="project-tech">
+                                <ul>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span> 1.自适应布局：采用相对单位vw,百分数，rem等进行布局。</span>
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span>2.图表采用了定制的echart.js库生实现了带有出场动画的图表且图形可以相互切换。</span>
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span>3.数据采用js实现了看板页面中点击表头单元实现排序，查询匹配，分页等功能。</span>
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span> 4.兼容性：对于表格中的录音文件通过判断浏览器类型进行分类处理，解决了wav文件播放问题, 此外解决了h5和css3中的兼容性问题。兼容到ie8+。</span>
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span> 5.优化：对csslint等对css选择器，js等进行优化，结合pageSpeed等测试工具的结果，对文件压缩与合并，减少请求数等方面进行优化。提升了网页的性能。</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="project-items last-project-items">
+                            <div class="projectID col-md-4">项目名称</div>
+                            <div class="project-name col-md-8">
+                                <a href="http://linden.site/sic/">企业官网</a>
+                            </div>
+                            <div class="project-desc col-md-2">项目简介：</div>
+                            <div class="project-desc-content col-md-10">gjkgkjgjljg </div>
+                            <div class="project-key  col-md-12">技术要点：</div>
+                            <div class="project-tech">
+                                <ul>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span> 1.自适应布局：采用相对单位rem结合媒体查询设置html字体大小,百分数等进行布局,对网页内容区在不同分辨率下通过媒体查询做了定宽处理。</span>
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span> 2.网页中采用css3实现了banner中的图片和文字的动画效果。</li>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span> 3.网页中许多图标采用iconfont的字体图标。对于个别1kb左右的图片进行了base64格式编码，减少了请求数。</li>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span> 4.主页采用了fullpage插件实现了鼠标滚动或键盘方向键进行控制。</li>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span> 5.侧边栏集成了qq,webIM, 微信等功能可以与客户进行沟通。</li>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span> 6.兼容性：采用web字体确保了字体在各个操作系统的主流浏览器下的渲染一致。</li>
+                                    <li>
+                                        <span class="fa fa-arrow-circle-right"></span> 7.优化：对网页中的公共的头部和尾部用抽离成公共的文件用js处理后插入后特定的文档节点上。</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //项目经验 -->
+
+                    <!-- 工作经历 -->
+                    <div class="work item-name">
+                        <div class="work-head col-md-12">
+                            <span>
+                                <i class="fa fa-briefcase"> </i> 工作经历</span>
+                            <hr>
+                        </div>
+                        <div class="work-item row">
+                            <div class="work-date col-md-4">2016.08-至今</div>
+                            <div class="company col-md-8">深圳万物互联信息科技有限公司 --- web前端工程师</div>
+                            <div class="work-desc-name col-md-2">工作内容：</div>
+                            <div class="work-desc col-md-10">
+                                <ul>
+                                    <li>1.负责公司的电话服务系统的数据图表以及各类报表的开发。</li>
+                                    <li>2.进行版本迭代与功能升级，解决图表与数据等在浏览器中的兼容性问题。</li>
+                                    <li>3.配合后端进行数据报表的开发。解决性能问题。</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //工作经历 -->
+
+                    <!-- 自我评价 -->
+                    <div class="evaluation  item-name">
+                        <div class="evaluation-head col-md-12">
+                            <span>
+                                <i class="fa fa-pencil-square"></i> 自我评价</span>
+                            <hr>
+                        </div>
+                        <div class="evaluation-content">
+                            <div class="self-evaluate">
+                                较强的学习和逻辑分析能力，良好的沟通协作力和服务意识，较强的工作执行力和抗压能力。
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //自我评价 -->
+
+                    <!-- 兴趣爱好 -->
+                    <div class="hobbies item-name">
+                        <div class="hobbies-head col-md-12">
+                            <span>
+                                <i class="fa fa-heart"></i> 兴趣爱好</span>
+                            <hr>
+                        </div>
+                        <div class="hobbies-item">
+                            <div class="internet col-md-4">
+                                <span>
+                                    <i class="fa fa-internet-explorer"> </i> 关注前端发展动态，追踪前端新技术。</span>
+                            </div>
+                            <div class="ride col-md-2">
+                                <span>
+                                    <i class="fa fa-bicycle"> </i> 骑行</span>
+                            </div>
+                            <div class="code col-md-6">
+                                <span>
+                                    <i class="fa fa-code"> </i> 学习前端技术。</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- //兴趣爱好 -->
                 </div>
             </div>
-            <!-- //基础信息栏 -->
-            <!-- 教育背景 -->
-            <div class="edu  itemName row">
-                <div class="edu_head col-md-12">
-                    <span class="edu"> <i class="fa fa-mortar-board"></i> 教育背景</span>
-                    <hr>
-                </div>
-                <div class="edu-content row">
-                    <div class="eduInfo col-md-12 row">
-                        <div class="eduDate col-md-4">2011.09 - 2014.04</div>
-                        <div class="university col-lg-4 col-md-4">西安理工大学</div>
-                        <div class="major col-lg-4 col-md-4">集成电路工程(硕士)</div>
-                    </div>
-                    <div class="eduInfo col-md-12 row">
-                        <div class="eduDate col-md-4">2007.09 - 2011.07</div>
-                        <div class="university col-lg-4 col-md-4">西安理工大学</div>
-                        <div class="major col-lg-4 col-md-4">微电子学(学士)</div>
-                    </div>
-                </div>
-            </div>
-            <!-- 职业技能 -->
-            <div class="skill itemName row">
-                <div class="skill-head col-md-12">
-                    <span><i class="fa fa-gear"></i> 职业技能</span>
-                    <hr>
-                </div>
-                <div class="skill-items">
-                    <ul class="skill">
-                        <li><span class="fa fa-arrow-circle-right"></span> 精通DIV+CSS网页布局，熟练运用HTML(5)、CSS(3)，悉W3C规范,对web语义化有一定的了解。可根据项目设计图，使用Html,DIV+CSS完成网站的UI页面</li>
-                        <li><span class="fa fa-arrow-circle-right"></span> 熟悉Javascript、jQuery、DOM、BOM、ES5/ES6等前段技术，完成各种动画展示与动态交互功能。</li>
-                        <li><span class="fa fa-arrow-circle-right"> 熟悉HTTP协议，熟练使用Ajax技术异步或同步发送http请求获取json数据。</span></li>
-                        <li><span class="fa fa-arrow-circle-right"></span> 掌握Sass、less、webpack、Gulp、Git、SVN、fireworks等前端项目构建和管理工具。熟悉前端调试工具Firebug。</li>
-                        <li><span class="fa fa-arrow-circle-right"></span> 了解Angular框架，服务器端语言PHP，MySQL等技术。 </li>
-                    </ul>
-                </div>
-            </div>
-            <!-- //职业技能 -->
-            <!-- 项目经验 -->
-            <div class="project itemName row">
-                <div class="project-head col-md-12">
-                    <span><i class="fa fa-codepen"></i> 项目经验</span>
-                    <hr>
-                </div>
-                <div class="project-items row">
-                    <div class="projectID col-md-4">项目名称</div>
-                    <div project-name col-md-8><a href="http://holylinden.site/demo/">原生js的demo合集与小项目</a></div>
-                    <div class="project-desc">简介： &nbsp;采用原生js或css3, canvas等技术写的demo与一些小项目。</div>
-                </div>
-                <div class="project-items row">
-                    <div class="projectID col-md-4">项目名称</div>
-                    <div project-name col-md-8><a href="http://holylinden.site/emall/">电商网站</a></div>
-                    <div class="project-desc">简介： &nbsp;应用html+css3+js开发，负责首页、商品页，分类页，登录与注册页的布局，IE兼容性及动态特效的实现。</div>
-                </div>
-                <div class="project-items row">
-                    <div class="projectID col-md-4">项目名称</div>
-                    <div project-name col-md-8><a href="http://linden.site/sic/">企业官网</a></div>
-                    <div class="project-desc">简介： &nbsp;采用Bootstrap+jQuery等技术实现了半导体科技公司的企业官网，负责前端页面布局及动态特效的实现。</div>
-                </div>
-                
-                <div class="project-items">
-                    <div class="projectID col-md-4">项目名称</div>
-                    <div class="project-name col-md-8"><a href="http://holylinden.site/rwd">响应式网站</a> </div>
-                    <div class="project-desc"><a href="http://linden.site">个人主页</a>： &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;项目中采用Bootstrap+jQuery+CSS3等技术实现了响应式的个人主页。</div>
-                    <div class="project-desc"><a href="http://linden.site/h5web">数据总结报告</a>： &nbsp;项目中采用Canvas、JS、jQuery、fullpage.js插件等技术实现了一个数据总结报告。</div>
-                    <div class="project-desc"><a href="http://linden.site/finance">金融理财网站</a>： &nbsp;采用原生的HTML、CSS3、JS实现一个响应式的金融类网站，此外设置打印样式。</div>
-                </div>
-            </div>
-            <!-- //项目经验 -->
-            <!-- 工作经历 -->
-            <div class="work itemName row">
-                <div class="work-head col-md-12">
-                    <span><i class="fa fa-briefcase"> </i> 工作经历</span>
-                    <hr>
-                </div>
-                <div class="work-item row">
-                    <div class="work-date col-md-4">2015.01-2017.08</div>
-                    <div class="company col-md-8">富泰华工业有限公司 ---IT工程师</div>
-                    <div class="work-desc-name col-md-2">工作内容：</div>
-                    <div class="work-desc col-md-10">
-                        <ul>
-                            <li>1.负责试产/量产阶段工站电脑软件安装调试，网络搭建。</li>
-                            <li>2.业余时间在富士康IE学院学习web前端技术。</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- //工作经历 -->
-            <!-- 自我评价 -->
-            <div class="evaluation  itemName row">
-                <div class="evaluation-head col-md-12">
-                    <span><i class="fa fa-pencil-square"></i> 自我评价</span>
-                    <hr>
-                </div>
-                <div class="evaluation-content">
-                    <p class="self-evaluate">
-                        <ul>
-                            <li>1.较强的学习能力和适应能力，良好的独立分析解决问题能力和逻辑分析思维。</li>
-                            <li>2.良好的团队沟通协作力和服务意识，较强的工作执行力和抗压能力，愿与公司一同发展。</li>
-                        </ul>
-                    </p>
-                </div>
-            </div>
-            <!-- //自我评价 -->
-            <!-- 兴趣爱好 -->
-            <div class="hobbies itemName row">
-                <div class="hobbies-head col-md-12">
-                    <span><i class="fa fa-heart"></i> 兴趣爱好</span>
-                    <hr>
-                </div>
-                <div class="hobbies-item">
-                    <div class="internet col-md-4">
-                        <span><i class="fa fa-internet-explorer"> </i> 关注IT科技资讯，了解行业发展。</span>
-                    </div>
-                    <div class="ride col-md-2">
-                        <span><i class="fa fa-bicycle"> </i> 骑行</span>
-                    </div>
-                    <div class="code col-md-6">
-                        <span><i class="fa fa-code"> </i> 在线教育网站学习编程技术。</span>
-                    </div>
-                </div>
-            </div>
-            <!-- //兴趣爱好 -->
         </div>
     </div>
 </body>
+
 </html>
