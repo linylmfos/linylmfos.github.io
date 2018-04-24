@@ -1,0 +1,48 @@
+@media print {
+    body { color: #000; background: #fff; }    
+    @page {
+        margin: 2cm;
+        size:A4;
+     }
+    a{color: #000 !important;text-decoration: none;}
+    .mailbox{width: 7cm;;}
+    .mail{width: auto;} 
+    .resume-main {
+        margin-top: -0.4cm !important;
+    }
+    .skill> li{
+        line-height: 40px;
+        padding-right: 3cm;
+    }
+     /* .projectID {margin: 0cm;padding:0cm;height: auto;line-height: 40px;}
+    .project-name {margin: 0cm;padding:0cm;height: auto;line-height: 40px;}  */
+    .project-tech >ul> li
+    {
+        line-height: 40px !important;
+        padding-right: 3cm;
+        word-wrap: break-word; 
+        word-break: normal; 
+    }
+    .project-desc {
+        margin: 0cm;
+        line-height: 40px;
+    }
+    .project-desc-content {
+        margin-top: 0cm;
+        width: 23cm;   
+         line-height: 40px !important; 
+    } 
+    .project-key{
+        margin: 0cm;
+        padding: 0cm;
+        line-height: 40px;
+    }
+    .work-desc > ul >li {
+        line-height: 40px !important;
+    }
+
+    .hobbies-item .ride {margin-left: 2cm;}
+    .hobbies-item .code {width: 5cm; margin-left: 0cm;padding: 0cm;}
+    /* .hobbies-item{display: flex; }
+    .hobbies-item >div{flex: 0 1 auto;} */
+}

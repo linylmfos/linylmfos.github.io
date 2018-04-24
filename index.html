@@ -12,6 +12,7 @@
     <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="./css/print.css" media="print" />
     <script type="text/javascript" src="http://cdn.webfont.youziku.com/wwwroot/js/wf/youziku.api.min.js"></script>
     <script type="text/javascript">
         $youziku.load("body", "700bcf8dd896483091b1f3fc331d0372", "Source-Han-Light");
@@ -36,11 +37,11 @@
                             </div>
                             <div class="col-md-4">
                                 <span class="position">
-                                    <b>求职意向：Web前端工程师</b>
+                                    <b>求职意向: Web前端工程师</b>
                                 </span>
                             </div>
                             <div class="col-md-3">
-                                <span class="position">在线简历：
+                                <span class="position">在线简历:
                                     <a href="http://www.linden.site"> linden.site </a>
                                 </span>
                             </div>
@@ -49,12 +50,12 @@
                         <div class="detailInfo">
                             <div class="phoneID col-md-4">
                                 <span class="phoneID">
-                                    <i class="iconfont icon-phone03"></i>： 184-7635-4782</span>
+                                    <i class="iconfont icon-phone03"></i>: 184-7635-4782</span>
                             </div>
                             <div class="mailbox col-md-3">
                                 <span class="mailbox">
-                                    <i class="iconfont icon-youxiang"></i>：
-                                    <a class="mail" href="mailto:iqianbaidu@163.com">iqianbaidu@163.com</a>
+                                    <i class="iconfont icon-youxiang"></i>:
+                                    <a class="mail" href="mailto:iqianbaidu@163.com"> iqianbaidu@163.com</a>
                                 </span>
                             </div>
                         </div>
@@ -132,21 +133,21 @@
                             <div class="project-desc-content col-md-10">该项目是采用webpack + vue2.x + vue-router + vuex + Axios等技术实现了移动端的旅游网站。</div>
                             <div class="project-key col-md-12">技术要点：</div>
                             <div class="project-tech col-md-12">
-                                <ul>
+                                <ul class="ul-project clearfix">
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span> 1.环境搭建：通过webpack与vue-cli搭建项目脚手架。布局方面：采用相对单位rem，通过组件实现页面的布局。
+                                        <span class="fa fa-arrow-circle-right"></span> 1. 环境搭建：通过webpack与vue-cli搭建项目脚手架。布局方面：采用相对单位rem，通过组件实现页面的布局。
                                     </li>
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span>3.通过vue-awesome-swiper实现了首页头部的轮播。采用Better-scroll插件实现页面滚动的效果。
+                                        <span class="fa fa-arrow-circle-right"></span> 2. 通过vue-awesome-swiper实现了首页头部的轮播。采用Better-scroll插件实现页面滚动的效果。
                                     </li>
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span>4.在本地建立mock数据，在页面通过axios请求mock的数据。通过vuex实现了首页中的组件与城市列表组件的数据传递。
+                                        <span class="fa fa-arrow-circle-right"></span> 3. 在本地建立mock数据，在页面通过axios请求mock的数据。通过vuex实现了首页中的组件与城市列表组件的数据传递。
                                     </li>
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span>5.采用vue自带的transition组件实现了城市列表页的banner图在滑屏滚动时候的渐隐渐现的效果。
+                                        <span class="fa fa-arrow-circle-right"></span> 4. 采用vue自带的transition组件实现了城市列表页的banner图在滑屏滚动时候的渐隐渐现的效果。
                                     </li>
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span>6.网页性能：采用keep-alive当路由切换后缓存组件，采用异步组件减少了首页的ajax请求数。
+                                        <span class="fa fa-arrow-circle-right"></span> 5. 网页性能：采用keep-alive当路由切换后缓存组件，采用异步组件减少了首页的ajax请求数。
                                     </li>
                                 </ul>
                             </div>
@@ -156,23 +157,25 @@
                             <div class="project-name col-md-8">
                                 <a href="http://holylinden.site/emall/">vue项目－点餐系统</a>
                             </div>
-                            <div class="project-desc col-md-2">项目简介：</div>
-                            <div class="project-desc-content col-md-10"> 该项目采用vue2.x +vue-router+ fetch实现了快餐点餐系统。</div>
+                            <div>
+                                <div class="project-desc col-md-2">项目简介：</div>
+                                <div class="project-desc-content col-md-10"> 该项目采用vue2.x +vue-router+ fetch实现了快餐点餐系统。</div>   
+                            </div>
                             <div class="project-key  col-md-12">技术要点：</div>
-                            <div class="project-tech">
-                                <ul>
+                            <div class="project-tech clearfix">
+                                <ul class="clearfix">
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span> 1.通过vue-cli搭建vue项目的脚手架，通过webpack搭建本地服务器环境，配置开发与生产环境。页面采用flex布局。
+                                        <span class="fa fa-arrow-circle-right"></span> 1. 通过vue-cli搭建vue项目的脚手架，通过webpack搭建本地服务器环境，配置开发与生产环境。页面采用flex布局。
                                     </li>
                                    
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span> 2.通过vue-router实现了商品页、评价页、商家页的评价。通过keep-alive对路由组件进行了缓存，减少了其页面的请求数。
+                                        <span class="fa fa-arrow-circle-right"></span> 2. 通过vue-router实现了商品页、评价页、商家页的评价。通过keep-alive对路由组件进行了缓存，减少了其页面的请求数。
                                     </li>
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span> 3.采用better-scroll插件实现了商品页面的滚动效果。
+                                        <span class="fa fa-arrow-circle-right"></span> 3. 采用better-scroll插件实现了商品页面的滚动效果。
                                     </li>
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span> 4.在easyMock上添加data并制作数据接口, 然后用Axios进行数据请求。
+                                        <span class="fa fa-arrow-circle-right"></span> 4. 在easyMock上添加data并制作数据接口, 然后用Axios进行数据请求。
                                     </li>
                                 </ul>
                             </div>
@@ -186,18 +189,18 @@
                             <div class="project-desc-content col-md-10"> 该项目是Vue+Webpack+Element+Axios+vueRouter.系统是一个快餐店的POS系统。</div>
                             <div class="project-key  col-md-12">技术要点：</div>
                             <div class="project-tech">
-                                <ul>
+                                <ul class="clearfix">
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span> 1.采用webpack、vue-cli搭建项目脚手架，通过webpack配置项目的开发环境。
+                                        <span class="fa fa-arrow-circle-right"></span> 1. 采用webpack、vue-cli搭建项目脚手架，通过webpack配置项目的开发环境。
                                     </li>
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span> 2.布局：采用ElementUI中的栅格布局进行布局。采用element自带的组件elbutton, el-tabs等组件进行布局。
+                                        <span class="fa fa-arrow-circle-right"></span> 2. 布局：采用ElementUI中的栅格布局进行布局。采用element自带的组件elbutton, el-tabs等组件进行布局。
                                     </li>
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span> 3.图标采用iconfont自体图标，减少了http请求数。
+                                        <span class="fa fa-arrow-circle-right"></span> 3. 图标采用iconfont自体图标，减少了http请求数。
                                     </li>
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span> 4.在easyMock上添加data并制作数据接口, 然后用Axios进行数据请求。</span>
+                                        <span class="fa fa-arrow-circle-right"></span> 4. 在easyMock上添加data并制作数据接口, 然后用Axios进行数据请求。</span>
                                     </li>
 
                                 </ul>
@@ -212,26 +215,26 @@
                             <div class="project-desc-content col-md-10">该项目采用echarts展示客户使用电话服务的呼入呼出，接通率，满意度，通话录音，通话数据的一个管理系统。</div>
                             <div class="project-key  col-md-12">技术要点：</div>
                             <div class="project-tech">
-                                <ul>
+                                <ul class="clearfix">
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span> 1.自适应布局：采用相对单位vw,百分数，rem等进行布局。</span>
+                                        <span class="fa fa-arrow-circle-right"></span> 1. 自适应布局：采用相对单位vw,百分数，rem等进行布局。</span>
                                     </li>
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span>2.图表采用了定制的echart.js库生实现了带有出场动画的图表且图形可以相互切换。</span>
+                                        <span class="fa fa-arrow-circle-right"></span> 2. 图表采用了定制的echart.js库生实现了带有出场动画的图表且图形可以相互切换。</span>
                                     </li>
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span>3.数据采用js实现了看板页面中点击表头单元实现排序，查询匹配，分页等功能。</span>
+                                        <span class="fa fa-arrow-circle-right"></span> 3. 数据采用js实现了看板页面中点击表头单元实现排序，查询匹配，分页等功能。</span>
                                     </li>
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span> 4.兼容性：对于表格中的录音文件通过判断浏览器类型进行分类处理，解决了wav文件播放问题, 此外解决了h5和css3中的兼容性问题。兼容到ie8+。</span>
+                                        <span class="fa fa-arrow-circle-right"></span> 4. 兼容性：对于表格中的录音文件通过判断浏览器类型进行分类处理，解决了wav文件播放问题, 此外解决了h5和css3中的兼容性问题。兼容到ie8+。</span>
                                     </li>
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span> 5.优化：对csslint等对css选择器，js等进行优化，结合pageSpeed等测试工具的结果，对文件压缩与合并，减少请求数等方面进行优化。提升了网页的性能。</span>
+                                        <span class="fa fa-arrow-circle-right"></span> 5. 优化：对csslint等对css选择器，js等进行优化，结合pageSpeed等测试工具的结果，对文件压缩与合并，减少请求数等方面进行优化。提升了网页的性能。</span>
                                     </li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="project-items last-project-items">
+                        <!-- <div class="project-items last-project-items">
                             <div class="projectID col-md-4">项目名称</div>
                             <div class="project-name col-md-8">
                                 <a href="http://linden.site/sic/">企业官网</a>
@@ -242,23 +245,28 @@
                             <div class="project-tech">
                                 <ul>
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span> 1.自适应布局：采用相对单位rem结合媒体查询设置html字体大小,百分数等进行布局,对网页内容区在不同分辨率下通过媒体查询做了定宽处理。</span>
+                                        <span class="fa fa-arrow-circle-right"></span> 1.自适应布局：采用相对单位rem结合媒体查询设置html字体大小,百分数等进行布局,对网页内容区在不同分辨率下通过媒体查询做了定宽处理。
                                     </li>
                                     <li>
                                         <span class="fa fa-arrow-circle-right"></span> 2.网页中采用css3实现了banner中的图片和文字的动画效果。</li>
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span> 3.网页中许多图标采用iconfont的字体图标。对于个别1kb左右的图片进行了base64格式编码，减少了请求数。</li>
+                                        <span class="fa fa-arrow-circle-right"></span> 3.网页中许多图标采用iconfont的字体图标。对于个别1kb左右的图片进行了base64格式编码，减少了请求数。
+                                    </li>
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span> 4.主页采用了fullpage插件实现了鼠标滚动或键盘方向键进行控制。</li>
+                                        <span class="fa fa-arrow-circle-right"></span> 4.主页采用了fullpage插件实现了鼠标滚动或键盘方向键进行控制。
+                                    </li>
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span> 5.侧边栏集成了qq,webIM, 微信等功能可以与客户进行沟通。</li>
+                                        <span class="fa fa-arrow-circle-right"></span> 5.侧边栏集成了qq,webIM, 微信等功能可以与客户进行沟通。
+                                    </li>
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span> 6.兼容性：采用web字体确保了字体在各个操作系统的主流浏览器下的渲染一致。</li>
+                                        <span class="fa fa-arrow-circle-right"></span> 6.兼容性：采用web字体确保了字体在各个操作系统的主流浏览器下的渲染一致。
+                                    </li>
                                     <li>
-                                        <span class="fa fa-arrow-circle-right"></span> 7.优化：对网页中的公共的头部和尾部用抽离成公共的文件用js处理后插入后特定的文档节点上。</li>
+                                        <span class="fa fa-arrow-circle-right"></span> 7.优化：对网页中的公共的头部和尾部用抽离成公共的文件用js处理后插入后特定的文档节点上。
+                                    </li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <!-- //项目经验 -->
 
@@ -275,9 +283,9 @@
                             <div class="work-desc-name col-md-2">工作内容：</div>
                             <div class="work-desc col-md-10">
                                 <ul>
-                                    <li>1.负责公司的电话服务系统的数据图表以及各类报表的开发。</li>
-                                    <li>2.进行版本迭代与功能升级，解决图表与数据等在浏览器中的兼容性问题。</li>
-                                    <li>3.配合后端进行数据报表的开发。解决性能问题。</li>
+                                    <li> 1 .负责公司的电话服务系统的数据图表以及各类报表的开发。</li>
+                                    <li> 2 .进行版本迭代与功能升级，解决图表与数据等在浏览器中的兼容性问题。</li>
+                                    <li> 3 .配合后端进行数据报表的开发。解决性能问题。</li>
                                 </ul>
                             </div>
                         </div>
@@ -309,15 +317,15 @@
                         <div class="hobbies-item">
                             <div class="internet col-md-4">
                                 <span>
-                                    <i class="fa fa-internet-explorer"> </i> 关注前端发展动态，追踪前端新技术。</span>
+                                    <i class="fa fa-internet-explorer"> </i> 关注前端发展动态，追踪前端新技术</span>
                             </div>
                             <div class="ride col-md-2">
                                 <span>
-                                    <i class="fa fa-bicycle"> </i> 骑行</span>
+                                    <i class="fa fa-bicycle"> </i>骑行</span>
                             </div>
                             <div class="code col-md-6">
                                 <span>
-                                    <i class="fa fa-code"> </i> 学习前端技术。</span>
+                                    <i class="fa fa-code"> </i>学习前端技术</span>
                             </div>
                         </div>
                     </div>
